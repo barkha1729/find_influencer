@@ -1,0 +1,25 @@
+NAME
+    pg
+
+FILE
+    py/wiki-vote/pg.py
+
+FUNCTIONS
+    Estimate_PageRank(M, beta=0.85, epsilon=0.0001)
+        #function to compute Page Rank for the given adjacency matrix of the graph
+        #beta and epsilon is feeded into the function as constants
+        #return the number of iterations and rank matrix
+    
+    sparse_Dic()
+
+DATA
+    EDGES = 103689
+    Filename = 'Wiki-Vote.txt'
+    NODES = 9000
+    iterate = 28
+    pr = matrix([[  5.05136873e-09],
+            [  5.0513687... [  5.05136873...
+    sp_csr = <9000x9000 sparse matrix of type '<type 'numpy.b... stored el...
+    start_time = 1510508808.961489
+
+
